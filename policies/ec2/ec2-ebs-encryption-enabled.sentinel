@@ -41,8 +41,8 @@ summary = {
 
 print(report.generate_policy_report(summary))
 
-# Rules
-# AWS EBS volume are encrypted
+
+// AWS EBS volume are encrypted
 main = rule {
 	violations is empty
 }
